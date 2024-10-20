@@ -9,6 +9,7 @@ import Med from "./Med";
 import Home from "./Home";
 import Chatbot from './Chatbot';
 import EpsteinTracker from './EpsteinTracker';
+import Emails from './Emails';
 import Marquee from 'react-fast-marquee';
 
 Modal.setAppElement('#root');
@@ -98,7 +99,7 @@ const App = () => {
             <Home />
           </div>
 
-          <div className="w-full">
+          <div className="w-full mt-[5%]">
             <Marquee speed={70} loop={0} className="w-full">
               <div className="flex items-center space-x-4">
                 {[...Array(7)].map((_, i) => (
@@ -119,6 +120,10 @@ const App = () => {
           </div>
           <div className="block md:hidden w-full">
             <Small />
+          </div>
+
+          <div className="w-full flex justify-center py-[5%]">
+            <Emails />
           </div>
 
           <div className="w-full flex justify-center py-[5%]">

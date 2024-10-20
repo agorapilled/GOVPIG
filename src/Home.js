@@ -38,7 +38,7 @@ const Home = () => {
 
   return (
     <div className="h-[100dvh] w-screen relative flex items-center justify-center">
-      <div className="absolute top-4 left-4 z-20">
+      <div className="absolute top-3 left-3 md:top-4 md:left-4 z-20">
         <div className='text-[16px] md:text-3xl flex md:hidden'>
             <TypingText text='"Pigeon Tech" v6.9' speed={50} />
         </div>
@@ -57,10 +57,10 @@ const Home = () => {
       </div>
 
       <div className='absolute top-4 right-4 flex justify-center items-center space-x-1'>
-        <a href="https://dexscreener.com/solana/ac8b94b5y4agdcg7ryaev5bwxjkbynf1sztpcjy1g7no" className='bg-zinc-400 rounded-full'>
+        <a href="https://dexscreener.com/solana/ac8b94b5y4agdcg7ryaev5bwxjkbynf1sztpcjy1g7no" className='bg-zinc-300 rounded-full'>
           <img src="ds.png" className='size-8 md:size-12 rounded-full border'></img>
         </a>
-        <a href="https://www.dextools.io/app/en/solana/pair-explorer/Ac8B94B5y4agdcG7rYAEv5BwxjKbYnF1szTpcJY1g7No" className='bg-zinc-400 rounded-full'>
+        <a href="https://www.dextools.io/app/en/solana/pair-explorer/Ac8B94B5y4agdcG7rYAEv5BwxjKbYnF1szTpcJY1g7No" className='bg-zinc-300 rounded-full'>
           <img src="dt.svg" className='size-8 md:size-12 rounded-full border p-1'></img>
         </a>
         <a href="https://x.com/pigeontechgovai" className='bg-black rounded-full'>
